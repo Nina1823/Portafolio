@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+.container {
+  display: flex;
+  height: 100vh; /* Altura total de la pantalla */
+}
+
+.containerLeft {
+  height: 100vh; /* Altura total de la pantalla */
+  width: 50%;
+  background-color: #342643;; /* Color de fondo para visualizar */
+ 
+}
+
+.containerRight {
+  flex: 1; /* Ocupa la mitad del espacio disponible */
+
+}
+
+.descripcion{
+  display: flex;
+  justify-content: center ;
+  align-items: left;
+
+  font-family: "Madimi One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: pink;
+  height: 100%;
+   font-size: 100px; /* Puedes ajustar el valor según sea necesario */
+ 
+}
