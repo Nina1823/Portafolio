@@ -5,6 +5,8 @@ html,
 body {
   height: 100%;
 	overflow: hidden;
+  overflow-y: auto; min-height: 100vh;
+  overflow-y: scroll;
 }
 canvas {
   display: block;

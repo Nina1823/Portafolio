@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+.container {
+    background-color: #594d66;
+    margin-top: 0px;
+    padding: 0 0 0 0px;
+    height: 50vw;
+}
+
+/* SECCION CURRICULUM */
+.escuela {
+    color: #F7E7CE;
+}
+
+.curriculum {
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.curriculum .contenidoSeccion {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.curriculum h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.curriculum .fila {
+    display: flex;
+    justify-content: space-between;
+}
+
+.curriculum .fila .col {
+    width: 49%;
+    padding: 0 20px;
+}
+
+.curriculum .fila .col h3 {
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+
+.curriculum .fila .izquierda {
+    border-right: 2px solid #342643;
+}
+
+.curriculum .fila .derecha {
+    border-left: 2px solid #342643;
+}
+
+.curriculum .fila .item {
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #342643;
+    position: relative;
+}
+
+.curriculum .fila .item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.curriculum .fila .item .casa {
+    color: #B57EDC;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+.curriculum .fila .item .fecha {
+    display: block;
+    color: #FFC0CB;
+    margin-bottom: 10px;
+}
+
+.curriculum .fila .item p {
+    line-height: 24px;
+}
+
+.curriculum .fila .izq {
+    border-right: 2px solid #FFC0CB;
+    margin-right: 20px;
+}
+
+.curriculum .fila .der {
+    border-left: 2px solid #FFC0CB;
+    margin-left: 20px;
+}
+
+.curriculum .fila .item .conectori {
+    height: 2px;
+    background-color: #FFC0CB;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+
+.curriculum .fila .item .conectori .circuloi {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #FFC0CB;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+
+.curriculum .fila .item .conectord {
+    height: 2px;
+    background-color: #FFC0CB;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+
+.curriculum .fila .item .conectord .circulod {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #C0C0C0;
+    float: left;
+    position: relative;
+    bottom: 4px;
+}
+
+.button {
+    position: flex;
+    top: 20px; /* Ajusta la distancia desde la parte superior según sea necesario */
+    right: 500px; /* Ajusta la distancia desde la derecha según sea necesario */
+    background-color: #342643;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px; /* Ajusta el padding según sea necesario */
+    font-weight: bold;
+    z-index: 999; /* Asegura que esté por encima de otros elementos */
+}

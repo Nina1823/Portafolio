@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
 .container{
-    display: flex;
-  justify-content: space-between;
+  color: white;
+  margin: 0;
+  padding: 0 0 0 0;
+  display: flex;
+  justify-content: right ;
+  align-items: right;
   margin-left: 10px; 
-  background-color: #342643;
-  margin-right: 100px;
+  background-color: #594d66;
+  height: 60px;
+  width: 100%;
+  font-weight: bold;
+  font-family: "Madimi One", sans-serif;
+  font-size: 20px;
+
 }
+
